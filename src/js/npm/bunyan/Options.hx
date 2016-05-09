@@ -11,7 +11,7 @@ import js.npm.bunyan.Serializer;
  **/
 
 typedef Options = {
-  var name : String;
+  @:optional var name : String;
   @:optional var level : EitherType<LevelStr, Level>;
   @:optional var stream : js.node.IStream;
   @:optional var streams : Array<js.npm.bunyan.Stream>;
