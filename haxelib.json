@@ -1,0 +1,14 @@
+{
+  "name": "hxnodejs-bunyan",
+  "url": "https://github.com/proletariatgames/hxnodejs-bunyan",
+  "license": "MIT",
+  "classPath": "src",
+  "tags": ["nodejs", "hxnodejs", "bunyan", "logger"],
+  "description": "Externs for the bunyan NPM module",
+  "releasenote": "Initial release",
+  "version": "1.8.0-alpha",
+  "contributors": ["Proletariat", "lpetre", "danogles", "waneck", "danbrakeley"],
+  "dependencies": {
+    "hxnodejs": ""
+  }
+}
