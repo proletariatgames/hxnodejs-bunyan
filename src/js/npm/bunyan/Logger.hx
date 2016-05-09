@@ -1,5 +1,6 @@
 package js.npm.bunyan;
 
+import haxe.DynamicAccess;
 import haxe.extern.Rest;
 import js.npm.bunyan.Level;
 
@@ -14,7 +15,7 @@ extern class Logger {
   /**
     Add one or more serializers
    **/
-  function addSerializers(serializers : Map<String, Serializer>) : Void;
+  function addSerializers(serializers : DynamicAccess<Serializer>) : Void;
 
   /**
     Create a child logger, typically to add a few log record fields.
